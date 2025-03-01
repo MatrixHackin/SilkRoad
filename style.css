@@ -1,0 +1,72 @@
+/* Custom styles for the AI Interactive Platform */
+
+/* Main container */
+.main {
+    background-color: #f8f9fa;
+}
+
+/* Headers */
+h1 {
+    color: #2E86C1;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3498DB;
+}
+
+h3 {
+    color: #2874A6;
+}
+
+/* Card containers */
+div.card {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+div.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2E86C1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.stButton > button:hover {
+    background-color: #1A5276;
+}
+
+/* Input fields */
+.stTextInput > div > div > input, 
+.stSelectbox > div > div > select {
+    border-radius: 5px;
+    border: 1px solid #3498DB;
+}
+
+/* File uploader */
+.stFileUploader > div {
+    border-radius: 5px;
+    border: 1px dashed #3498DB;
+    padding: 10px;
+}
+
+/* Success messages */
+.stSuccess {
+    background-color: #D4EFDF;
+    color: #196F3D;
+    border-radius: 5px;
+    border: 1px solid #196F3D;
+}
+
+/* Navigation styling is handled in app.py */
